@@ -1,0 +1,41 @@
+git clone https://github.com/katerinaakozlowskaa-droid/HW_10.git
+cd HW_10
+touch text_ignore.txt
+nano .gitignore
+git status
+nano .gitignore
+git status
+git status
+git status
+touch text_ignore.txt
+git status
+nano .gitignore
+git status
+git add .gitignore
+git status
+commit -m "Change git ignore"
+git commit -m "Change git ignore"
+git checkout -b  develop
+git checkout main
+touch main_test.txt
+git status 
+git add main_test.txt
+git commit -m "New file main_test"
+git status
+
+touch develop_test.txt
+git status
+git add develop_test.txt
+git commit -m "New file develop_test"
+git status 
+nano develop_test.txt
+git status
+git add develop_test.txt 
+git add develop_test.txt
+git status
+git commit -m "Changes develop_test"
+git checkout main
+git merge develop
+git merge --abort
+git status
+git merge develop
